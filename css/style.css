@@ -1,0 +1,75 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Components */
+@import url(components/buttons.css);
+@import url(components/card.css);
+@import url(components/icons.css);
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/* Custom design below! */
+
+.banner {
+  height: 400px;
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .banner-content{
+  width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+
+.banner .banner-content p{
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+}
+
+.hiw-container{
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 900px;
+}
+
+.hiw-container h2{
+  text-align: center;
+}
+
+.hiw-cards{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer{
+  margin-top: 30px;
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer p{
+  color: rgb(167, 167, 167);
+}
